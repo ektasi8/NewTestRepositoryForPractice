@@ -10,6 +10,7 @@ namespace TestWebApplication.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Msg="Hello change here in index method of home controller";
             return View();
         }
 
