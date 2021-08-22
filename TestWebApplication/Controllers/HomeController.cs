@@ -17,6 +17,7 @@ namespace TestWebApplication.Controllers
         public ActionResult Index()
         {
             ViewBag.Sum = funObj.Sum(10, 15);
+            ViewBag.Msg="Hello change here in index method of home controller";
             return View();
         }
 
