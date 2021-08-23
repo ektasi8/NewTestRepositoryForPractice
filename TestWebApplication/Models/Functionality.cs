@@ -20,5 +20,7 @@ namespace TestWebApplication.Models
         {
             return num1 - num2;
         }
+
+        public string Name { get; set; }
     }
 }
